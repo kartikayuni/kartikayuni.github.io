@@ -1,0 +1,20 @@
+body{
+    margin: 0
+}
+h1{
+    font-family: Helvetica, arial, sans;
+}
+
+figure.header {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+img.header{
+    display: block;
+    max-width: 140%;
+    height: auto;
+    margin: -10% 0 -15% -40%;
+}
+
