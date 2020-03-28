@@ -1,13 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&display=swap');
+
 body{
     margin: 0
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans Condensed";
+}
+
 h1{
-    font-family: Helvetica, arial, sans;
-    font-size: 3vw;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 3rem;
+    padding-bottom: 0.3rem;
+    color: #660000;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.2rem;
+    line-height: 2rem;
+
+    color: #333333;
+    width: 80%;
 }
 
 article.main {
-    margin-top: 10vw;
+    width: 70%;
     margin-left: 10%; 
 }
 
@@ -22,7 +44,7 @@ img.header{
     display: block;
     max-width: 140%;
     height: auto;
-    margin: -15% 0 -25% -40%;
+    margin: -15% 0 -30% -40%;
 }
 
 p.header {
