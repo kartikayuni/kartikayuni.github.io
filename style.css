@@ -6,6 +6,7 @@ h1{
 }
 
 figure.header {
+    position: relative;
     width: 100%;
     overflow: hidden;
     margin: 0;
@@ -15,6 +16,16 @@ img.header{
     display: block;
     max-width: 140%;
     height: auto;
-    margin: -10% 0 -15% -40%;
+    margin: -10% 0 -25% -40%;
 }
 
+p.header {
+    position: absolute;
+    bottom: 1px;
+    left: 3%;
+    color: white;
+    font-family: Helvetica, Arial, Sans;
+    font-size: 10vw;
+    margin-bottom: 10px;
+
+}
