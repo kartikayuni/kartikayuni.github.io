@@ -1,39 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Open Sans Condensed";
-}
-
-h1{
-    font-size: 3rem;
-    font-weight: 700;
-    padding-top: 3rem;
-    padding-bottom: 0.2rem;
-    color: #003366;
-}
-
-h2 {
-    font-size: 2rem;
-    color: #333;
-    width: 80%;
-}
-
-p {
-    font-family: serif;
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-
-    color: #333333;
-    width: 80%;
-}
-
-article.main {
-    width: 70%;
-    margin-left: 10%; 
 }
 
 figure.header {
@@ -50,16 +28,122 @@ img.header{
     margin: -15% 0 -30% -40%;
 }
 
-p.header {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    color: white;
-    background-color: #003300;
-    font-family: Helvetica, Arial, Sans;
-    font-size: 5vw;
-    margin: 0;
-    padding: 1vw 3vw;
+h1{
+    font-size: 6rem;
+    font-weight: 700;
+    padding-top: 3rem;
+    padding-bottom: 0.2rem;
+    color: #003366;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #333;
+}
+
+p {
+    font-family: serif;
+    font-size: 1rem;
+    line-height: 2em;
+    margin-bottom: 3em;
+    color: #333333;
+}
+
+nav.header {
+    background-color: #003366;
+}
+
+nav.header > ol {
+    display: block;
+    list-style-type: none;
+    margin-left: 10%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+ol.nav > li {
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+a.nav {
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #f2f2f2;
+}
+
+article.main {
+    margin-left: 10%; 
+    margin-right: 10%;
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    h1{
+        font-size: 3rem;
+        font-weight: 700;
+        padding-top: 3rem;
+        padding-bottom: 0.5em;
+    }
+    
+    h2 {
+        font-size: 2rem;
+        color: #333;
+        width: 80%;
+        padding-bottom: 0.5em;
+    }
+    
+    p {
+        font-size: 1.2rem;
+        line-height: 1.3em;
+        width: 80%;
+        margin-bottom: 1em;
+    }
+    
+    nav.header > ol {
+        display: inline-block;
+        list-style-type: none;
+        padding-inline-start: 10%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin: 0;
+    }
+    
+    ol.nav > li {
+        display: inline-block;
+        margin-right: 2rem;
+        margin-bottom: 0;
+    }
+    
+    a.nav {
+        text-decoration: none;
+        font-family: arial, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #f2f2f2;
+    }
+    
+    
+    article.main {
+        width: 70%;
+        margin-left: 10%; 
+    }
+    
+    figure.header {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+    }
+    
+    img.header{
+        display: block;
+        max-width: 140%;
+        height: auto;
+        margin: -15% 0 -30% -40%;
+    }
 
 }
