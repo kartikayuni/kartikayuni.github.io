@@ -12,7 +12,7 @@ h1{
     font-weight: 700;
     padding-top: 3rem;
     padding-bottom: 0.3rem;
-    color: #660000;
+    color: #003366;
 }
 
 h2 {
@@ -22,7 +22,7 @@ h2 {
 p {
     font-family: "Libre Baskerville", serif;
     font-size: 1.2rem;
-    line-height: 2rem;
+    line-height: 1.8rem;
 
     color: #333333;
     width: 80%;
