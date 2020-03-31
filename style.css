@@ -16,15 +16,15 @@ body{
 
 
 article.main {
-    margin-left: 10%; 
-    margin-right: 15%;
-    max-width: 50rem;
+    padding-left: 10%; 
+    padding-right: 15%;
+    max-width: 45rem;
 }
 
 h1, h2, h3, h4, h5, h6
 {
     font-family: "Open Sans Condensed";
-    color: #333;
+    color: #444;
 }
 
 h1{
@@ -104,9 +104,9 @@ nav.top {
     margin-left: 10%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 850px) {
     nav.top {
-        margin-bottom: 3rem;
+        margin-bottom: 5rem;
     }
 
     h1, h2 {
@@ -115,6 +115,10 @@ nav.top {
 
     h1 { 
         font-size: 3rem; 
+    }
+
+    h2 { 
+        font-size: 2rem; 
     }
 
     img.header{
