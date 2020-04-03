@@ -11,7 +11,8 @@
 
 body{
     margin: 0;
-    font-size: 1.2rem;
+    font-family: Open Sans, sans-serif;
+    font-size: 1rem;
 }
 
 
@@ -37,13 +38,13 @@ h2 {
 }
 
 p {
-    font-family: Open Sans;
-    font-size: 1rem;
     line-height: 1.8;
     margin-top: 1em;
     margin-bottom: 2em;
     max-width: 72ch;
 }
+
+
 figure.header {
     position: relative;
     width: 100%;
@@ -61,7 +62,7 @@ img.header{
 nav.top {
     overflow: hidden;
     background-color: #003366;
-    padding: 0.5rem 0;
+    padding: 0.5rem 0 0.5rem 10%;
     margin-bottom: 2.25rem;
 }
 
