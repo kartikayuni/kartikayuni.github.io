@@ -1,0 +1,73 @@
+nav.top {
+    background-color: #264d73;
+}
+
+a.logo {
+    color: white;
+    text-transform: uppercase;
+}
+
+div.priceWrapper{
+    width: 100%;
+}
+
+div.priceBox {
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 1rem;
+    display: block;
+}
+
+p.lessons, p.price {
+    font-family: Open Sans, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+p.terms {
+}
+
+.caption {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.pricePerPackage {
+    font-size: 1rem;
+}
+
+.l1 {
+    background-color: #cc3300;
+}
+
+.l10{
+    background-color: #0066cc;
+}
+
+.l20 {
+    background-color: #009933;
+}
+
+@media screen and (min-width: 850px) {
+    
+    div.priceWrapper{
+        width: 100%;
+        display: table;
+        border-spacing: 1rem;
+        margin-left: -1rem;
+    }
+    
+    div.priceBox {
+        width: 30%;
+        margin: 1rem;
+        text-align: center;
+        color: #f2f2f2;
+        padding: 1rem;
+        display: table-cell;
+        position: relative;
+    }
+}

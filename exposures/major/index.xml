@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>major on Learn-Bahasa.com</title>
+    <link>http://learn-bahasa.com/exposures/major/</link>
+    <description>Recent content in major on Learn-Bahasa.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 22 Aug 2020 13:56:04 +0200</lastBuildDate>
+    
+	<atom:link href="http://learn-bahasa.com/exposures/major/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learn Indonesian with a Native Speaker Online</title>
+      <link>http://learn-bahasa.com/indonesian/learn-indonesian/</link>
+      <pubDate>Sat, 22 Aug 2020 13:56:04 +0200</pubDate>
+      
+      <guid>http://learn-bahasa.com/indonesian/learn-indonesian/</guid>
+      <description>I’m Yuni, a native speaker and teacher of Indonesian language, and I invite you to learn Bahasa Indonesia online with me. I offer individual Bahasa Indonesia classes over Skype. As a teacher I see my goal to make you speak Bahasa Indonesia within the shortest time possible.
+How it Works The online lessons are performed over Skype video call. For a whiteboard, we shall be using Google Docs and other free cloud software.</description>
+    </item>
+    
+  </channel>
+</rss>

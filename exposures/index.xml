@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exposures on Learn-Bahasa.com</title>
+    <link>http://learn-bahasa.com/exposures/</link>
+    <description>Recent content in Exposures on Learn-Bahasa.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 22 Aug 2020 13:56:04 +0200</lastBuildDate>
+    
+	<atom:link href="http://learn-bahasa.com/exposures/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>major</title>
+      <link>http://learn-bahasa.com/exposures/major/</link>
+      <pubDate>Sat, 22 Aug 2020 13:56:04 +0200</pubDate>
+      
+      <guid>http://learn-bahasa.com/exposures/major/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
